@@ -1,10 +1,10 @@
 import React from 'react';
 import Counter from './Counter/Counter';
-import classes from './App.module.css';
+import './App.css';
 
 const App = () => {
   return(
-    <div className = {classes.App}>
+    <div className = "App">
     <Counter />
     </div>
   )

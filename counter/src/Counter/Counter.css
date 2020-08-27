@@ -1,0 +1,49 @@
+h1{
+    width: 30%;
+    border: 0.1px solid black;    
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: auto;
+    box-shadow: 1px 3px 1px #9E9E9E;
+}
+
+.count_button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 40%;
+    left: 45%
+  }
+  
+  .count_button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+  .reset_button {
+    position: absolute;
+    bottom: 5%;    
+    left: 47%
+  }
+
+@media(max-width:499px){
+    h1{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: auto;
+        margin-top: 20%
+    }
+    .count_button{
+        top: 50%;
+        width: 40%;
+        left: 30%        
+    }
+}
